@@ -443,7 +443,8 @@ footer {
 
 .email-link {
     text-decoration: none;
-    color: var(--thirdcolor)
+    color: var(--thirdcolor);
+    padding: 16x;
 }
 
 .email-link:hover {
