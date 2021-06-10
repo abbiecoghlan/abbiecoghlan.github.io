@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon.ico" />
+        <title>Abbie's Portfolio</title>       
+    </head>
+    <body>  
+        <header class="nav-container">
+            <nav class="navbar">
+                <div id="navbar-logo">🤓</div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li class="links" ><a href="#home" class="nav-links">Home</a></li>
+                    <li class="links"><a href="#about" class="nav-links">About</a></li>
+                    <li class="links"><a href="#projects" class="nav-links">Projects</a></li>
+                    <li><a class='icons nav-links' href="https://linkedin.com/in/abbiecoghlan" target="blank"><img src="icons/linkedInWhite.png" alt="abbiecoghlan" height="35" width="35" /></a></li>
+                    <li><a class='icons nav-links' href="https://github.com/abbiecoghlan" target="blank"><img src="icons/githubWhite.png" alt="abbiecoghlan" height="35" width="35" /></a></li>
+                    <li class="links"><a href="mailto:Abbie.Coghlan@gmail.com" class="nav-links nav-links-btn">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="body">     
+            <div class="body-statement">
+                <a name="home"></a>
+                <h1>Abbie Coghlan is a Software Engineer with 8 years of experience at the intersection of healthcare, education, and business.</h1>            
+            </div>
+
+            <div class="body-container">
+                <div class="body-column profile-container">
+                    <img src="https://user-images.githubusercontent.com/66394682/121441145-da2dd180-c94e-11eb-9d96-1b9d4ce522fa.png" alt="a friendly, professional woman with green glasses, blondeish-brown hair, and a black shirt smiles" height="300" width="300" class="profile-pic">
+                </div>
+               
+                <div class="body-column about">
+                    <a name="about"></a>
+                    <h2>About</h2>
+                    <ul class="list">
+                        <li>🧑‍💻 Full-Stack Web Developer</li>
+                        <li>🎓 Alum of Flatiron School, Emerson College, & the University of Illinois</li>
+                        <li>📋 Former speech-langauge pathologist and private practice founder</li>
+                        <li>💡 My capstone project: <a href="https://youtu.be/GRaE4yxGVP0">Habit Circle Demo</a> | <a href="https://github.com/abbiecoghlan/habit-circle-frontend">Frontend</a> | <a href="https://github.com/abbiecoghlan/habit-circle-backend">Backend</a></li>
+                        <li>📍 My first Javascript SPWA: <a href="https://www.youtube.com/watch?v=YsVwr-I-RNw">Geo Hunt Demo</a> | <a href="https://github.com/abbiecoghlan/geo-hunt-frontend">Frontend</a> | <a href="https://github.com/abbiecoghlan/geo-hunt-backend">Backend</a></li>
+                        <li>🚧 I'm currently working on: <strong>Geo Hunt 2.0</strong> <a href="https://github.com/marcferraro/GeoHunt2.0-frontend">Frontend</a> | <a href="https://github.com/abbiecoghlan/GeoHunt2.0-backend">Backend</a></li>
+                        <li>🌱 I’m currently learning: <strong>Python & Flask</strong></li>
+                        <li>💬 Ask me about: <strong>much I love React hooks, my favorite projects, or my dog</strong></li>
+                        <li>⚡ Fun fact: <strong>If I'm not on my computer, I'm at the beach</strong></li>
+                    </ul>
+                </div>
+
+                <div class="body-column skills">
+                    <div class="skill-list">
+                        <h2>Skills</h2>
+                        <div>
+                        <ul class="list">
+                            <li class="item">Javascript</li>
+                            <li class="item">React</li>
+                            <li class="item">Redux</li>
+                            <li class="item">Thunk</li>
+                            <li class="item">Ruby</li>
+                            <li class="item">Ruby on Rails</li>
+                            <li class="item">SQL</li>
+                            <li class="item">Git</li>
+                            <li class="item">HTML5</li>
+                            <li class="item">CSS3</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="get-in-touch">
+                        <h4>📫 Want to get in touch? </h4>
+                        <button href="mailto:Abbie.Coghlan@gmail.com" class="email-btn"> Email Me</a></button>
+                    </div>
+                </div>   
+
+            </div>
+
+
+            <div class="project-container">
+                <div class="body-title">
+                    <h2>Projects</h2>
+                    <a name="projects"></a>
+                </div>
+                <div class="video-container">
+                    <div class="project-video">
+                        <h3>Habit Circle</h3>
+                        <p>Habit Circle is a habit tracking app that provides an appealing data visualization of monthly progress to motivate the completion of daily tasks. </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/GRaE4yxGVP0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p>React frontend | Rails API backend | Semantic UI React | d3 Charting Library</p>
+                    </div>
+                    
+                    <div class="project-video">
+                        <h3>Geo Hunt</h3>
+                        <p>Geo Hunt is a location-based trivia game that allows users to find locations on a map given clues.</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YsVwr-I-RNw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p>Javascript Single Page Web App | Rails API backend | Google Maps API </p>
+                    </div>
+
+                    <div class="project-video">
+                        <h3>Simple Note</h3>
+                        <p>Simple Note is a clean and easy to use full CRUD notes application that allows users to create and manage text-based notes.</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ch9-YKWMRIc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+                        <p>Redux | React frontend | Rails API backend | EmailJS</p>
+                    </div>
+
+                    <div class="project-video">
+                        <h3>Most Wanted</h3>
+                        <p>Most wanted is a command line app that redesigns the FBI's most wanted database to allow the user, an FBI agent, to read, analyze, input, update and remove information about fugitives and their crimes in various cities across the US.</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/kKnMsxbT2L4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p>CLI  | Full CRUD | FBI’S Open API for seeding data | Active Record </p>
+                    </div>
+                </div>    
+                
+       
+            </div>
+        </main>
+        
+        <footer id="footer" >
+            <div class="footer-container">
+                <a href="https://linkedin.com/in/abbiecoghlan" target="blank"><img class='footer-icons' src="icons/linkedInBlack.png" alt="abbiecoghlan" height="35" width="35" /></a>
+                <a href="https://github.com/abbiecoghlan" target="blank"><img class='footer-icons' src="icons/githubBlack.png" alt="abbiecoghlan" height="35" width="35" /></a>
+            </div>
+        </footer>
+
+        <script defer src="app.js"></script>
+    </body>
+</html>
