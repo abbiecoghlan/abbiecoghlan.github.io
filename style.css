@@ -438,7 +438,7 @@ footer {
 .get-in-touch {
     text-align: center;
     color: var(--secondcolor);
-     
+     text-decoration: none;
 }
 
 .email-link {
