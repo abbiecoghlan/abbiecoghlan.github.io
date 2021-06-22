@@ -121,7 +121,7 @@ iframe {
 
     }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 875px) {
   
     .video-container {
         grid-template-columns: 100%;     
@@ -130,7 +130,7 @@ iframe {
     .project-video {
         position: relative;
         width: 100%;
-        height: 400px;
+
         padding: 5px;
         margin-bottom: 60px;
     }
