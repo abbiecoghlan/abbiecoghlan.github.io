@@ -1,1 +1,3 @@
 Hello, World! 
+
+This website was built at the start of my coding journey, before I had actual professional experience as a software engineer, and at the time, it was my very first time styling with CSS instead of Bootstrap. Looking at it now, it's clear how much I didn't quite grasp at the time, even though this is a very simple site. I may come back and clean this up soon, but for now, I am glad to report I learned a TON and would organize the elements, tags, and style sheet much differently if I had built this website today. Cheers to progress and learning! 🎉
